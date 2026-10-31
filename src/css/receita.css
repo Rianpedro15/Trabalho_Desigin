@@ -1,0 +1,41 @@
+body{
+    
+    flex-direction: column;
+    align-items: center;
+    display:flex;
+}
+
+#teste {
+
+    flex-direction: row;
+    align-items: center;
+    display:flex;
+}
+
+.descricaooo{
+    text-align: left;
+    border: solid;
+    display:flex;
+}
+
+.texto{
+    text-align: left;
+    border: solid;
+    display:flex;
+}
+
+.ingredientesss{
+
+    text-align: left;
+    border: solid;
+    display:flex;
+
+}
+
+.ingredientes_texto{
+
+    text-align: left;
+    border: solid;
+    display:flex;
+
+}
