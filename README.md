@@ -1,5 +1,5 @@
 # Trabalho_Desigin
-Trabalho de Front_End
+TRABALHO QUE VAI SUBSTITUIR A P2 DA MATERIA Front End Design
 
 <<<<<<< HEAD
 https://prod.liveshare.vsengsaas.visualstudio.com/join?6674695CA2F049C6091E0E4FA417EEEAF08C
