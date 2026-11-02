@@ -10,32 +10,38 @@
 <body>
 
     <header>
-        <!--Cabecalho do site-->
+        <!--Cabecalho do site (PARTE SUPERIOR)-->
+        <div class="cabecalho">
 
-        <div id="icon">
-            <img src="src/img/icon.png" alt="Icone do site" width="50" height="50">
-            <!--foto do icone do site-->
+            <div>
+                <img src="src/img/icon.png" id="icon" alt="Icone do site" width="50" height="50">
+                <!--foto do icone do site-->
 
+            </div>
+
+            <div class="pesquisa">
+            <input type="text" placeholder="Pesquisar...">
+            <button>🔍</button>
+                <!--Barra de pesquisa do site-->
+
+            </div>
+
+            <div class="icones">
+                <!--Icone do login-->
+                <div class="login">
+                    <img src="src/img/login.png" alt="Icone do login" width="50" height="50">
+                </div>
+
+                <div class="favoritos">
+                    <!--Icone de favoritos-->
+                    <img src="#" alt="icone de favoritos" width="50" height="50">
+                </div>
+                <!--<img src="src/img/lupa.png" alt="">-->
+
+            
+            </div>
         </div>
-
-        <div class="pesquisa">
-        <input type="text" placeholder="Pesquisar...">
-        <button>🔍</button>
-            <!--Barra de pesquisa do site-->
-
-        </div>
-
-        <div id="login">
-            <!--Icone do login-->
-            <img src="src/img/login.png" alt="Icone do login" width="50" height="50">
-
-            <img src="#" alt="icone de favoritos" width="50" height="50">
-
-           <!--<img src="src/img/lupa.png" alt="">-->
-
-        
-        </div>
-
+        <!--PARTE INFERIOR DO HEADER-->
         <nav id="filtro">
             <!--Navegação dos tipos de comidas (jogos, animes, cartoon)-->
             <a href="#">Jogos</a>
@@ -43,7 +49,7 @@
             <a href="#">Cartoon</a>
 
         </nav>
-
+        
     </header>
 
     <main>
@@ -51,7 +57,7 @@
             <!--onde vai ficar a apresentação do site-->
 
             <div>
-                <img src ="" id="foto_principal" alt ="Imagem do Jacquin" width="300" height="300">
+                <img src ="./src/img/jacu_png.png" id="foto_jacquin" alt ="Imagem do Jacquin" width="300" height="300">
                 <!--foto do site, jaquin pelado-->
                 <p>quem come de tudo, está sempre mastigando</p>
 
@@ -61,32 +67,64 @@
 
         <div class="blocos">
             <!-- Div para poder estruturar os blocos dos pratos-->
+            
+            <!--PRIMEIRO PRATO PARA TESTE DO DESIGN-->
+            <div class="card-prato">
+                <div id="img_prato">
+                    <!--Responsável pelo Design da imagem dos pratos-->
+                    <img src="#" alt="Imagem do prato" width="300" height="300">
+                </div>
 
-            <div id="img_prato">
-                <!--Responsável pelo Design da imagem dos pratos-->
-                <img src="#" alt="Imagem do prato" width="300" height="300">
+                <div class="informacoes-prato">
+                    <div class="textos">
+                        <!--Responsavel pelo Design do texto (Nomes, filtro, inspiração)-->
+                        <h1>Nome do prato</h1><br>
+                        <p>Desenho</p>
+
+                    </div>
+                    <div id="avaliacao">
+                        <!--Responsavel pelo Desing das avaliações dos pratos-->
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+
+                    <div id="botao-receita">
+                        <!--Responsavel pelo Design do botão-->
+                        <a href="receita.html" class="botao-receita">
+                            Ir para a receita
+                        </a>
+
+                    </div>
+                </div>
             </div>
 
-            <div id="botao-receita">
-                <!--Responsavel pelo Design do botão-->
-                <a href="receita.html" class="botao-receita">
-                    <button>
-                    Ir para a receita
-                    </button>
-                </a>
+            <!--SEGUNDO PRATO PARA TESTE DO DESIGN-->
+            <div class="card-prato">
+                <div id="img_prato">
+                    <!--Responsável pelo Design da imagem dos pratos-->
+                    <img src="#" alt="Imagem do prato" width="300" height="300">
+                </div>
 
-            </div>
-            <div id="textos">
-                <!--Responsavel pelo Design do texto (Nomes, filtro, inspiração)-->
-                <h1>Nome do prato</h1><br>
-                <p>Desenho</p>
+                <div class="informacoes-prato">
+                    <div class="textos">
+                        <!--Responsavel pelo Design do texto (Nomes, filtro, inspiração)-->
+                        <h1>Nome do prato</h1><br>
+                        <p>Desenho</p>
 
-            </div>
-            <div id="avaliacao">
-                <!--Responsavel pelo Desing das avaliações dos pratos-->
-                <p>⭐⭐⭐⭐⭐</p>
-            </div>
+                    </div>
+                    <div id="avaliacao">
+                        <!--Responsavel pelo Desing das avaliações dos pratos-->
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
 
+                    <div id="botao-receita">
+                        <!--Responsavel pelo Design do botão-->
+                        <a href="receita.html" class="botao-receita">
+                            Ir para a receita
+                        </a>
+
+                    </div>
+                </div>
+            </div>    
         </div>
 
 
@@ -98,7 +136,6 @@
             <!--Responsável pelo design dos direitos autorais-->
             <p>©nome do site</p>
         </div>
-        <div>
             <!--Responsavel pelo Design dos contatos-->
             <nav id="contatos">
                 <ul>
@@ -106,7 +143,12 @@
                     <li><a href="#"><img src="src/img/email.png" alt="contate-nos no email" width="30" height="30"></a></li>
                 </ul>
             </nav>
-        </div>
+        
+        <div id="ia">
+            <!--Responsavel pelo Design da IA do site-->
+            <img src="src/img/ia.png" alt="IA do site">
+        </div>   
+
     </footer>
    
 </body>
